@@ -1,5 +1,5 @@
-
+prepros-6.config
+hints.txt
 *.map
 /css/*
-!css/reset.css
 !css/style.css
