@@ -1,4 +1,158 @@
  //Обнуление стилей
  @import "reset.scss";
-//Подкл. шрифты
-@import "fonts.scss";
+ //Подкл. шрифты
+ @import "fonts.scss";
+
+ .header {
+     position: absolute;
+     width: 1920px;
+     height: 190px;
+     left: 0px;
+     top: 0px;
+ }
+
+ .wraper {
+     // width: 1218px;
+     // max-width: 1920px;
+     // 	margin: 0 auto;
+ }
+
+ .search {
+     position: absolute;
+     left: 64.53%;
+     right: 18.28%;
+     top: 31.58%;
+     bottom: 47.37%;
+
+     background: #FFFFFF;
+     border: 1px solid #2ECC71;
+     box-sizing: border-box;
+     border-radius: 6px;
+
+     &__title {
+         position: absolute;
+         left: 65.57%;
+         right: 32.55%;
+         top: 37.89%;
+         bottom: 53.16%;
+
+         font-family: Open Sans;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 12px;
+         line-height: 140%;
+         color: #9CA5AD;
+     }
+
+     &__icon {
+         position: absolute;
+         left: 79.95%;
+         right: 19.32%;
+         top: 39.47%;
+         bottom: 53.16%;
+
+         background: #9CA5AD;
+     }
+ }
+
+ .main-menu {
+     position: absolute;
+     left: 0%;
+     right: 0%;
+     top: 0%;
+     bottom: 78.95%;
+
+     background-color: #2ECC71;
+
+     &__list {
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         align-self: center;
+         height: 40px;
+
+         position: absolute;
+         left: 18.28%;
+         right: 61.98%;
+         top: 5%;
+         bottom: 83.42%;
+     }
+
+     &__list a,
+     S a:visited {
+         color: #FFFFFF;
+     }
+
+     &__item1,
+     &__item2,
+     &__item3 {
+         flex: none;
+         // order: 0;
+         align-self: center;
+         flex-grow: 0;
+         margin-right: 50px;
+
+         font-family: Open Sans;
+         font-style: normal;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 140%;
+     }
+
+     &__item1 {}
+
+     &__item2 {}
+
+     &__item3 {}
+ }
+
+ .logo {
+     position: absolute;
+     left: 18.28%;
+     right: 54.22%;
+     top: 31.58%;
+     bottom: 13.16%;
+
+     &__icon {
+         position: relative;
+         left: 18.28%;
+         right: 78.12%;
+         top: 31.58%;
+         bottom: 13.16%;
+     }
+     &__icon>img{
+     	position: relative;
+     }
+
+     &__title {
+         position: absolute;
+         left: 22.43%;
+         right: 54.22%;
+         top: 45.26%;
+         bottom: 26.21%;
+     }
+
+     &__sub-title {
+         position: absolute;
+         left: 22.55%;
+         right: 54.22%;
+         top: 72.63%;
+         bottom: 13.16%;
+
+         font-family: Open Sans;
+         font-style: normal;
+         font-weight: 600;
+         font-size: 16px;
+         line-height: 27px;
+         /* identical to box height, or 169% */
+
+         letter-spacing: 0.07em;
+         text-transform: uppercase;
+
+         color: #272727;
+     }
+ }
+
+ .feedback {
+     &__buttom {}
+ }
